@@ -1,0 +1,27 @@
+$(document).ready(function(){
+  
+  var triggered = false;
+  var share_btns_class = '.google-plus, .twitter, .facebook, .linkedin';
+  
+  $(".trigger").click(function(){
+    if(triggered == false){
+      $(this).html('<span class="exit">+</span>').css('transform','rotate(45deg)');
+      //First, bring up Google+
+     $('.google-plus').animate({bottom: '6em'}, 150);
+      //Then Twitter
+     $('.twitter').animate({bottom: '10em'}, 150);
+      //Then Facebook
+     $('.facebook').animate({bottom: '14em'}, 150);
+      //And finally, Linkedin
+     $('.linkedin').animate({bottom: '18em'}, 150);
+      triggered = true;
+      
+    }else{
+      $(this).html('<i class="fa fa-share fa-lg" id= "fab" aria-hidden="true"></i>').css('transform','rotate(0deg)');
+      //Hide All buttons
+     $(share_btns_class).animate({bottom: '2em'}, 150);
+      triggered = false;
+    }
+    
+  })
+})
