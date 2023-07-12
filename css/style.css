@@ -605,7 +605,43 @@ green light #cfd877*/
   float: right;
   border-radius: 0.1rem;
   border: dotted thin #fff;
-  content: "📰 IIF";
+  content: "📰 Latest from IIF";
+
+}
+
+/*Make this float below and to the right */
+.article2-label::before {
+  background-image: url( '/img/rji/IIF.svg');
+/*  height: 10px;*/
+/*  width: 30px;*/
+  text-transform: uppercase;
+  background-color: #2f97a1;
+  color: #fff;
+  padding: 0.2rem;
+  margin: -1rem -2rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "📰 July 2023";
+
+
+}
+
+/*Make this float below and to the right */
+.article3-label::before {
+  background-image: url( '/img/rji/IIF.svg');
+/*  height: 10px;*/
+/*  width: 30px;*/
+  text-transform: uppercase;
+  background-color: #2f97a1;
+  color: #fff;
+  padding: 0.2rem;
+  margin: -1rem -2rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "⚙️ IIF August 2023";
+  
 
 }
 
