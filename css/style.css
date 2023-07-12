@@ -664,7 +664,7 @@ green light #cfd877*/
   border-radius: 0.1rem;
 }
 
-.rji-tile a:link {
+.rji-tile a:visited {
   color: #ff553f;
 }
 
@@ -766,7 +766,8 @@ green light #cfd877*/
 
 .c-tools {
 
-
+  background-color: #cc6600 !important;
+  color: #e0ffff;
 }
 
 
