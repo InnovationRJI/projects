@@ -1,4 +1,4 @@
 # projects
-RJI Innovation Tools, Playbooks, and experiments
+RJI Innovation 
 
-A home for fellowship projects, partnership projects and other projects
+A home for projects, partnerships, tools and platforms
