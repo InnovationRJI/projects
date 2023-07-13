@@ -569,16 +569,16 @@ green light #cfd877*/
 
 
 
-.guide-label::before {
+.toolkit-label::before {
   text-transform: uppercase;
-  background-color: greenyellow;
-  color:  #683AA6;
+  background-color: #683AA6;
+  color:  #e0ffff;
   padding: 0.2rem;
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
   border: dotted thin #fff;
-  content: "📒 GUIDE ";
+  content: "📒 Toolkit ";
 }
 
 .tool-label::before {
@@ -591,6 +591,17 @@ green light #cfd877*/
   border-radius: 0.1rem;
   border: dotted thin #fff;
   content: "🛠️ TOOL";
+}
+.platform-label::before {
+  text-transform: uppercase;
+  background-color: #cc6600;
+  color: #e0ffff;
+  padding: 0.2rem;
+  margin: -1rem -2rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "🛠️ Platform";
 }
 
 .article-label::before {
