@@ -40,7 +40,7 @@ body a:link {
 
 /* visited link */
 body a:visited {
-  color: #0066cc;
+  color: #787878;
 }
 
 /* mouse over link */
@@ -449,7 +449,7 @@ border-left: solid 1rem #006cb4;
 
 .cslim .gallery .tile .post .accordion-content a:hover {
   text-decoration: underline;
-  color: hotpink;
+  color: #787878;
 
 }
 
@@ -571,7 +571,7 @@ green light #cfd877*/
 
 .toolkit-label::before {
   text-transform: uppercase;
-  background-color: #835BAB;
+  background-color: #765398;
   color:  #e0ffff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -609,7 +609,7 @@ green light #cfd877*/
 /*  height: 10px;*/
 /*  width: 30px;*/
   text-transform: uppercase;
-  background-color: #49AFB0;
+  background-color: #09A5D3;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -626,7 +626,7 @@ green light #cfd877*/
 /*  height: 10px;*/
 /*  width: 30px;*/
   text-transform: uppercase;
-  background-color: #2f97a1;
+  background-color: #09A5D3;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -642,7 +642,7 @@ green light #cfd877*/
 .article3-label::before {
 
   text-transform: uppercase;
-  background-color: #2f97a1;
+  background-color: #09A5D3;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -656,7 +656,7 @@ green light #cfd877*/
 
 .playbook-label::before{
   text-transform: uppercase;
-  background-color: #835BAB;
+  background-color: #765398;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -668,7 +668,7 @@ green light #cfd877*/
 
 .fellow-label::before {
   text-transform: uppercase;
-  background-color: #a1c31d;
+  background-color: #4E885A;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -710,13 +710,13 @@ green light #cfd877*/
 }
 
 .rji-tile a:visited {
-  color: #ff553f;
+  color: #8D8D8D;
 }
 
 
 
 .rji-agenda-tile {
-   background: linear-gradient(#ebf2f4, #fff) !important; 
+   background: linear-gradient(#EED5D5, #fff) !important; 
   color: #1c5e90 !important;
   border: 1px solid lightblue;
   border-radius: 0.1rem;
@@ -725,7 +725,7 @@ green light #cfd877*/
 }
 
 .rji-agenda-tile a:link {
-  color: #ff553f;
+  color: #000000;
 }
 
 
@@ -737,7 +737,7 @@ green light #cfd877*/
 }
 
 .rji-source-tile a:link {
-  color: #ff553f;
+  color: #000000;
 }
 
 
@@ -805,7 +805,7 @@ green light #cfd877*/
 
 
 .c-playbook {
-  background-color: #1da1c3 !important;
+  background-color: #765398 !important;
   color: #fff;
 }
 
@@ -817,14 +817,15 @@ green light #cfd877*/
 
 
 .c-fellows {
-  background-color: #a1c31d !important;
+  background-color: #4E885A !important;
   color: #fff;
 
 }
 
 
 .c-call {
-
+ background-color: #37809B !important;
+  color: #fff;
 }
 
 
