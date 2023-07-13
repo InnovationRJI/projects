@@ -200,7 +200,7 @@ h3 {
 
 .gallery .tile .post{
   /* this is the content box; what follows is purely cosmetic */
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 
   background-color:#003152;
   color:#f0f0f0;
@@ -571,7 +571,7 @@ green light #cfd877*/
 
 .toolkit-label::before {
   text-transform: uppercase;
-  background-color: #683AA6;
+  background-color: #1da1c3;
   color:  #e0ffff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -640,9 +640,7 @@ green light #cfd877*/
 
 /*Make this float below and to the right */
 .article3-label::before {
-  background-image: url( '/img/rji/IIF.svg');
-/*  height: 10px;*/
-/*  width: 30px;*/
+
   text-transform: uppercase;
   background-color: #2f97a1;
   color: #fff;
@@ -658,7 +656,7 @@ green light #cfd877*/
 
 .playbook-label::before{
   text-transform: uppercase;
-  background-color: #683AA6;
+  background-color: #1da1c3;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -670,7 +668,7 @@ green light #cfd877*/
 
 .fellow-label::before {
   text-transform: uppercase;
-  background-color: #4EA651;
+  background-color: #a1c31d;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -807,7 +805,7 @@ green light #cfd877*/
 
 
 .c-playbook {
-  background-color: #683AA6 !important;
+  background-color: #1da1c3 !important;
   color: #fff;
 }
 
@@ -819,7 +817,7 @@ green light #cfd877*/
 
 
 .c-fellows {
-  background-color: #4EA651 !important;
+  background-color: #a1c31d !important;
   color: #fff;
 
 }
