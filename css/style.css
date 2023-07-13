@@ -578,7 +578,7 @@ green light #cfd877*/
   float: right;
   border-radius: 0.1rem;
   border: dotted thin #fff;
-  content: "📒 Toolkit ";
+  content: "🗃️ Toolkit ";
 }
 
 .tool-label::before {
@@ -661,7 +661,7 @@ green light #cfd877*/
   float: right;
   border-radius: 0.1rem;
   border: dotted thin #fff;
-  content: "📒 PLAYBOOK";
+  content: "📘 PLAYBOOK";
 }
 
 .fellow-label::before {
