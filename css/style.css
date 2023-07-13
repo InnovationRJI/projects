@@ -111,16 +111,16 @@ nav {
 
 
   font-family: 'Poppins', sans-serif !important;
-  position: -webkit-sticky;
+  position: -webkit- sticky;
   position: sticky;
   top: 0;
-  padding: 0.2rem; 
+  padding: 0.1rem; 
   background: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 500;
-  border-radius: 0.3rem;
+  border-radius: 0.1rem;
   max-width:950px;
   margin: auto;
   }
