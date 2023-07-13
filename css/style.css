@@ -659,7 +659,7 @@ green light #cfd877*/
 
 .fellow-label::before {
   text-transform: uppercase;
-  background-color: #009326;
+  background-color: #4EA651;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -808,7 +808,7 @@ green light #cfd877*/
 
 
 .c-fellows {
-  background-color: #009326 !important;
+  background-color: #4EA651 !important;
   color: #fff;
 
 }
