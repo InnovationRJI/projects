@@ -35,7 +35,7 @@ body {
 /* unvisited link */
 body a:link {
   text-decoration: none;
-  color: #0066cc;
+  color: #000408;
 }
 
 /* visited link */
@@ -46,12 +46,12 @@ body a:visited {
 /* mouse over link */
 body a:hover {
   text-decoration: underline;
-  color: black;
+  color: blue;
 }
 
 /* selected link */
 body a:active {
-  color: blue;
+  color: black;
 }
 
 
@@ -609,7 +609,7 @@ green light #cfd877*/
 /*  height: 10px;*/
 /*  width: 30px;*/
   text-transform: uppercase;
-  background-color: #09A5D3;
+  background-color: #37809B;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -624,7 +624,7 @@ green light #cfd877*/
 .article2-label::before {
   
   text-transform: uppercase;
-  background-color: #09A5D3;
+  background-color: #37809B;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -640,7 +640,7 @@ green light #cfd877*/
 .article3-label::before {
 
   text-transform: uppercase;
-  background-color: #09A5D3;
+  background-color: #37809B;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
