@@ -571,7 +571,7 @@ green light #cfd877*/
 
 .toolkit-label::before {
   text-transform: uppercase;
-  background-color: #1da1c3;
+  background-color: #835BAB;
   color:  #e0ffff;
   padding: 0.2rem;
   margin: -1rem -2rem;
@@ -656,7 +656,7 @@ green light #cfd877*/
 
 .playbook-label::before{
   text-transform: uppercase;
-  background-color: #1da1c3;
+  background-color: #835BAB;
   color: #fff;
   padding: 0.2rem;
   margin: -1rem -2rem;
