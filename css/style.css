@@ -622,9 +622,7 @@ green light #cfd877*/
 
 /*Make this float below and to the right */
 .article2-label::before {
-  background-image: url( '/img/rji/IIF.svg');
-/*  height: 10px;*/
-/*  width: 30px;*/
+  
   text-transform: uppercase;
   background-color: #2f97a1;
   color: #fff;
