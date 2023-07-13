@@ -572,7 +572,7 @@ green light #cfd877*/
 .guide-label::before {
   text-transform: uppercase;
   background-color: greenyellow;
-  color:  #5A00C6;
+  color:  #683AA6;
   padding: 0.2rem;
   margin: -1rem -2rem;
   float: right;
@@ -796,7 +796,7 @@ green light #cfd877*/
 
 
 .c-playbook {
-  background-color: #5A00C6 !important;
+  background-color: #683AA6 !important;
   color: #fff;
 }
 
