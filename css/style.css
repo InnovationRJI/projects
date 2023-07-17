@@ -1,4 +1,4 @@
-/*fonts 
+ƒ/*fonts 
 font-family: 'Crimson Pro', serif;
 font-family: 'IBM Plex Serif', serif;
 font-family: 'Roboto Slab', serif;
@@ -371,6 +371,29 @@ font-family: 'Poppins', sans-serif !important;
         color: #202020;
         background: linear-gradient(#c4d7fb, #fff) !important;
 }
+
+/*CSS background separators*/
+ 
+.cslim-sep {
+  position: relative;
+  background: #2c3e50;
+  height: 50vh;
+}
+
+.cslim-sep::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 57px 57px 0 57px;
+  border-color: #2c3e50 transparent transparent transparent;
+  left: 18%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+/*end css background separators*/
 
 .cslim p {
   font-family: 'Poppins', sans-serif !important;
