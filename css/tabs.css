@@ -99,7 +99,7 @@ input:focus-visible + label {
 
 
 .tab-panel {
-  padding: 30px 0;
+  padding: 0.1rem 0;
   border-top: 1px solid #ccc;
 /*  background-image:   url("../img/tgl/the-path.jpg");*/
 }

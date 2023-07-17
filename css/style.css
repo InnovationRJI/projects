@@ -58,7 +58,8 @@ body a:active {
 body p {
 /*  font-family: 'Inter', sans-serif;*/
 font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
+  font-size: 1.15rem;
+  line-height: 1.75rem;
 /*  line-height: 1.1rem;*/
 /*font-weight: 350;*/
 
@@ -97,7 +98,7 @@ body .hiring-intro a {
 
 
 div h2 {
-  line-height: 1.4rem;
+  line-height: 1.45rem;
 
 }
 
@@ -879,6 +880,7 @@ green light #cfd877*/
 .gallery h2 {
   line-height: 1.8rem;
   padding-left:1rem;
+  margin-top: 0.0rem !important;
   }
 
 
@@ -889,12 +891,18 @@ green light #cfd877*/
 }
 
 .small-icon {
+  display: flex;
+  align-content: center;
   aspect-ratio: 1:1 !important;
   max-width: 100%;
   max-height: 460px;
+    float: none;
+  margin: auto;
 }
 
 .small-icon-rt {
+  display: flex;
+  align-content: center;
   aspect-ratio: 1:1 !important;
   max-width: 100%;
   max-height: 460px;
