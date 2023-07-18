@@ -84,7 +84,7 @@ body .hiring-intro a {
 
 .gallery p {
   font-family:'Open Sans', sans-serif;
-  line-height: 1.1rem;
+  line-height: 1.3rem;
 }
 
 .gallery h1 {
@@ -329,8 +329,8 @@ button.accordion {
   border-radius: 0.3rem;
   outline: none;
   text-align: left;
-  padding: 15px 20px;
-  font-size: 18px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
   color: #333;
   cursor: pointer;
   transition: background-color 0.2s linear;
@@ -341,12 +341,13 @@ button.accordion:after {
   font-family: ;
   content: "▼";
   font-family: "";
-  font-size: 18px;
+  font-size: 1.2rem;
   float: right;
 }
 
 button.accordion.is-open:after {
   content: "▲";
+
 }
 
 button.accordion:hover,
@@ -552,13 +553,14 @@ green light #cfd877*/
 
 .tgl h2 {
   font-family: 'Crimson Pro', serif;
-  font-weight: 400;
   font-size: xx-large;
 }
 
 .tgl .gallery .tile.full .post {
   background-color: #122806;
 }
+
+
 
 .attention-journey {
 
