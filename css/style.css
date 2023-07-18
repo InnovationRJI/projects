@@ -329,7 +329,7 @@ button.accordion {
   border-radius: 0.3rem;
   outline: none;
   text-align: left;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5re;
   font-size: 1.2rem;
   color: #333;
   cursor: pointer;
@@ -852,7 +852,8 @@ green light #cfd877*/
   color: #fff;
 }
 
-@media screen and (max-width:479px){
+
+@media screen and (max-width: 479px){
   .gallery .tile{
     width:50%;
     float:left;
@@ -913,7 +914,7 @@ green light #cfd877*/
 
 }
 
-
+}
 
 @media screen and (min-width:480px){
   .gallery .tile{
