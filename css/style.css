@@ -178,6 +178,8 @@ h3 {
 
 .lead-quote {
   font-style: italic;
+  font-size: 1.4rem !important;
+  line-height: 1.5rem !important;
 }
 
 .gallery {
@@ -406,6 +408,30 @@ body .hiring-intro a {
       background: linear-gradient(#c4d7fb, #fff) !important;
 }
 
+.cslim .goals {
+  padding: 1.6rem;
+  background-color: #288790;
+  color: white;
+  border-radius: 0.2rem;
+}
+
+.cslim ul li p {
+      font-family: 'Crimson Pro', serif !important;
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+      color: white;
+/*      border-left: 2rem solid red;*/
+}
+
+
+
+.cslim .interns ul li {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1.125rem;
+    line-height: 1.3rem;
+}
+
+
 /*CSS background separators*/
  
 .cslim-sep {
@@ -430,7 +456,7 @@ body .hiring-intro a {
 /*end css background separators*/
 
 .cslim p {
-  font-family: 'Poppins', sans-serif !important;
+/*  font-family: 'Poppins', sans-serif !important;*/
 }
 
 .cslim .underlined {
@@ -492,7 +518,7 @@ border-left: solid 1rem #006cb4;
 .cslim .hiring-mgr h2 {
 /*  color: #fff ;*/
 /*  border-left: solid 1rem #ed9140;*/
-box-shadow: -8px 10px #ed9140;
+box-shadow: 3px 3px #ed9140;
 }
 
 .cslim .gallery .tile .post .hiring-mgr .accordion-content {
@@ -583,14 +609,16 @@ pink-green gradient #fdd7d8
 Green dark #122806
 green light #cfd877*/
 
-.tgl h1 {
+.tgl .tgl-intro h1 {
   font-family: 'Libre Franklin', sans-serif;
   text-transform: uppercase;
+  color: #fff;
 }
 
-.tgl h2 {
+.tgl .tgl-intro h2 {
   font-family: 'Crimson Pro', serif;
   font-size: xx-large;
+  color: #fff;
 }
 
 .tgl .gallery .tile.full .post {

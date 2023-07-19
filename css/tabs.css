@@ -88,9 +88,9 @@ input:focus-visible + label {
   border-color: #ccc;
   border-bottom: 1px solid #fff;
 /*  margin-bottom: -1px;*/
-  background-color: #d2eff2;
+  background-color: #288790;
   border-radius: 0.3rem;
-  color: #3d3d3d;
+  color: #fff;
   
 }
 
