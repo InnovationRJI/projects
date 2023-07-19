@@ -40,7 +40,7 @@ body a:link {
 
 /* visited link */
 body a:visited {
-  color: #2a2a2a;
+  color: #247abb;
 }
 
 /* mouse over link */
@@ -54,12 +54,17 @@ body a:active {
   color: black;
 }
 
+/*body  a:visited h2{
+  color: black;
+}*/
+
 
 body p {
 /*  font-family: 'Inter', sans-serif;*/
 font-family: 'Open Sans', sans-serif;
-  font-size: 1.15rem;
-  line-height: 1.75rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 400;
 /*  line-height: 1.1rem;*/
 /*font-weight: 350;*/
 
@@ -72,9 +77,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-body .hiring-intro a {
-  color: lightblue;
-}
+
 
 .gallery {
   font-family:'Crimson Pro', serif;
@@ -203,8 +206,8 @@ h3 {
   /* this is the content box; what follows is purely cosmetic */
   border-radius: 0.3rem;
 
-  background-color:#003152;
-  color:#f0f0f0;
+/*  background-color:#003152;*/
+/*  color:#f0f0f0;*/
   text-decoration: none;
 
   
@@ -250,12 +253,12 @@ h3 {
 }
 
 /*#122806*/
-
+/*
 pink-green gradient #fdd7d8 
 Green dark #122806
 green light #cfd877
 
-background: linear-gradient(#e66465, #9198e5);
+background: linear-gradient(#e66465, #9198e5);*/
 
 
 .gallery .tile.wide .post{
@@ -276,10 +279,14 @@ background: linear-gradient(#e66465, #9198e5);
 
 .gallery .tile.full .post{
   /* as above this is just cosmetic */
-  background-color:#1c5e90;
+/*  background-color:#1c5e90;*/
 }
 
+/*Homepage tile*/
 
+.rji-home {
+  background-color:#1c5e90 !important;
+}
 
 /*sharing button*/
 
@@ -329,7 +336,8 @@ button.accordion {
   border-radius: 0.3rem;
   outline: none;
   text-align: left;
-  padding: 1rem 1.5re;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1px;
   font-size: 1.2rem;
   color: #333;
   cursor: pointer;
@@ -365,13 +373,37 @@ button.accordion.is-open {
   transition: max-height 0.2s ease-in-out;
 }
 
+.hiring-lead {
+    background-color:#288790;
+  color:#f0f0f0;
+  text-decoration: none;
+
+}
+
+.hiring-intro {
+
+}
+
+.hiring-intro p {
+/*  color: #fafdfd !important; */
+}
+
+body .hiring-intro a {
+  color: #288890;
+}
+
+.hiring-intro h2 {
+  line-height: 1.5rem;
+}
+
+
 .cslim {
 /*  font-family: 'Open Sans', sans-serif;*/
-font-family: 'Poppins', sans-serif !important;
+      font-family: 'Poppins', sans-serif !important;
       font-size: 1rem;
 /*      background-color: #d2eff2 !important;*/
-        color: #202020;
-        background: linear-gradient(#c4d7fb, #fff) !important;
+      color: #202020;
+      background: linear-gradient(#c4d7fb, #fff) !important;
 }
 
 /*CSS background separators*/
@@ -407,7 +439,7 @@ font-family: 'Poppins', sans-serif !important;
 }
 
 .cslim .tab-panel h2 {
-  color: #fff ;
+/*  color: #fff ;*/
 }
 
 #73a9c2
@@ -416,9 +448,9 @@ font-family: 'Poppins', sans-serif !important;
 .cslim .gallery .tile .post {
   /* this is the content box; what follows is purely cosmetic */
   border-radius: 0.5rem;
-
-  background-color:#73a9c2 !important;
-  color:#f0f0f0;
+/*  background-color:#73a9c2 !important;*/
+  background: linear-gradient(#cae2f5, #ebf8da) !important;
+  color:#1c5e90;
   text-decoration: none;
     
   
@@ -440,6 +472,8 @@ font-family: 'Poppins', sans-serif !important;
 /*    color: #787878;*/
 }
 
+
+
 .cslim .gallery .tile .post .accordion-content {
   
 border-left: solid 1rem #006cb4;
@@ -453,6 +487,20 @@ border-left: solid 1rem #006cb4;
   color: #474747;
   line-height: 1.2rem;
 /*  letter-spacing: 0.05rem;*/
+}
+
+.cslim .hiring-mgr h2 {
+/*  color: #fff ;*/
+/*  border-left: solid 1rem #ed9140;*/
+box-shadow: -8px 10px #ed9140;
+}
+
+.cslim .gallery .tile .post .hiring-mgr .accordion-content {
+  
+border-left: solid 1rem #ed9140;
+/*  box-shadow: inset 0.5rem 0.5rem orangered;*/
+/*box-shadow: -1rem 0px 3px 0px orangered;*/
+
 }
 
 
@@ -487,25 +535,14 @@ border-left: solid 1rem #006cb4;
   color: #3d3d3d;
 }*/
 
-.hiring-intro {
 
-}
-
-.hiring-intro p {
-  color: #fafdfd !important; 
-}
-
-.hiring-intro h2 {
-  line-height: 1.5rem;
-}
 
 .cilsmt {
 /*  background: linear-gradient(#acc7fa, #c6aef6) !important;*/
 /*    background: linear-gradient(#c4d7fb, #d6c5f9) !important;*/
       background: linear-gradient(#c4d7fb, #fff) !important;
       border: 1px solid lightblue;
-
-  color: #202020 !important;
+      color: #202020 !important;
 }
 
 .tgl {
@@ -734,7 +771,7 @@ green light #cfd877*/
 }
 
 .rji-tile a:visited {
-  color: #8D8D8D;
+  color: #247abb;
 }
 
 

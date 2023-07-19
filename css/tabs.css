@@ -18,7 +18,8 @@
 .tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6),
 .tabset > input:nth-child(13):checked ~ .tab-panels > .tab-panel:nth-child(7),
 .tabset > input:nth-child(15):checked ~ .tab-panels > .tab-panel:nth-child(8),
-.tabset > input:nth-child(17):checked ~ .tab-panels > .tab-panel:nth-child(10) {
+.tabset > input:nth-child(17):checked ~ .tab-panels > .tab-panel:nth-child(10),
+.tabset > input:nth-child(19):checked ~ .tab-panels > .tab-panel:nth-child(11) {
   display: block;
 }
 
@@ -82,6 +83,7 @@ input:focus-visible + label {
   border-radius: 0.3rem;
 }
 
+/*baseline*/
 .cslim .tabset > input:checked + label {
   border-color: #ccc;
   border-bottom: 1px solid #fff;
@@ -96,6 +98,8 @@ input:focus-visible + label {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
+
+/*endbaseline*/
 
 
 .tab-panel {
