@@ -117,6 +117,7 @@ input:focus-visible + label {
 
 
 .tab-panel {
+  display: flex;
   padding: 0.1rem 0;
   border-top: 1px solid #ccc;
 /*  background-image:   url("../img/tgl/the-path.jpg");*/
