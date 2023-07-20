@@ -1,6 +1,17 @@
-.image-list-small {
+.cslim .image-list-small {
   font-family: 'Open Sans', sans-serif;
-  font-size: 300;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+/*  max-width: 640px;*/
+  padding: 0.5rem;
+
+}
+
+
+.image-list-small li p {
+   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   margin: 0 auto;
   text-align: center;
 /*  max-width: 640px;*/
@@ -11,6 +22,7 @@
   display: inline-block;
   width: 150px;
   margin: 0 12px 30px;
+  color: #454545;
 }
 
 
