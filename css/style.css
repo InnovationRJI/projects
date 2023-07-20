@@ -854,7 +854,7 @@ green light #cfd877*/
 
 
 .rji-source-tile {
-   background: linear-gradient(#a4dbde, #E9F6F6); 
+   background: linear-gradient(#a4dbde, #E9F6F6)!important; 
   color: #1c5e90 !important;
   border: 1px solid lightblue;
   border-radius: 0.1rem;
