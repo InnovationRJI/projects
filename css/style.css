@@ -682,7 +682,8 @@ border-left: solid 1rem linear-gradient(#cae2f5, #ebf8da);
 .tgl {
 
       font-family: 'Open Sans', sans-serif;
-      font-size: 1rem;
+      font-size: 1.125rem;
+      line-height: 1.3rem;
 /*      font-weight: 200;*/
 /*      background-color: #CFD877 !important;*/
         background: linear-gradient(#cfd877, #fdd7d8);
