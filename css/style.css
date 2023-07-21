@@ -709,6 +709,14 @@ border-left: solid 1rem linear-gradient(#cae2f5, #ebf8da);
   text-decoration: underline #cfd877 0.2rem !important;
 }
 
+.tgl #tab11 a:link {
+  text-decoration: underline #cfd877 0.2rem !important;
+}
+
+.tgl #tab11 a:visited {
+  text-decoration: underline ##247abb 0.2rem !important;
+}
+
 .tgl-img-right {
   display: flex;
   float: right;
