@@ -71,6 +71,35 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
+.rji-bug {
+  font-family: 'Crimson Pro', serif;
+  float: right;
+  text-align: right;
+  color: #f0f0f0;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #1c5e90;
+  border-radius: 0.2rem;
+}
+
+
+.rji-bug a:link {
+  color: #f0f0f0;
+  text-decoration: underline #247abb 0.0rem !important;
+}
+
+.rji-bug a:visited {
+  color: #f0f0f0;
+  text-decoration: underline #247abb 0.0rem !important;
+}
+
+.rji-bug img {
+  max-width: 20px;
+}
+
+
 .hiring-list {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
@@ -213,9 +242,9 @@ h3 {
 /*  color:#f0f0f0;*/
   text-decoration: none;
 
-  
-
 /*  text-align:center;*/
+/* top | right | bottom | left */
+/*    padding: 1rem 1rem 1rem 2rem;*/
     padding:1rem 2rem;
     height: 100%;
 }
@@ -698,23 +727,23 @@ border-left: solid 1rem linear-gradient(#cae2f5, #ebf8da);
 }
 
 .tgl a:link {
-  text-decoration: underline #fdd7d8 0.2rem !important;
+  text-decoration: underline #fdd7d8 0.2rem ;
 }
 
 .tgl a:hover {
-  text-decoration: underline #fdd7d8 0.2rem !important;
+  text-decoration: underline #fdd7d8 0.2rem ;
 }
 
 .tgl a:visited {
-  text-decoration: underline #cfd877 0.2rem !important;
+  text-decoration: underline #cfd877 0.2rem ;
 }
 
 .tgl #tab11 a:link {
-  text-decoration: underline #cfd877 0.2rem !important;
+  text-decoration: underline #cfd877 0.2rem ;
 }
 
 .tgl #tab11 a:visited {
-  text-decoration: underline ##247abb 0.2rem !important;
+  text-decoration: underline #247abb 0.2rem ;
 }
 
 .tgl-img-right {
