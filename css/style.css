@@ -696,6 +696,71 @@ border-left: solid 1rem linear-gradient(#cae2f5, #ebf8da);
   border: 1px solid lightblue;
 }
 
+.tgl a:link {
+  text-decoration: underline #fdd7d8 0.2rem !important;
+}
+
+.tgl a:hover {
+  text-decoration: underline #fdd7d8 0.2rem !important;
+}
+
+.tgl a:visited {
+  text-decoration: underline #cfd877 0.2rem !important;
+}
+
+.tgl-img-right {
+  display: flex;
+  float: right;
+}
+
+.tgl-img-right img {
+  justify-content: center;
+  margin: 1rem;
+  max-width: 200px;
+}
+
+.tgl-img-left {
+  display: flex;
+  float: left;
+}
+
+.tgl-img-left img {
+  justify-content: center;
+  margin: 1rem;
+  max-width: 200px;
+}
+
+.tgl-img-bigleft {
+  display: flex;
+  float: left;
+}
+
+.tgl-img-bigleft img {
+  justify-content: center;
+  margin: 1rem;
+  max-width: 400px;
+}
+
+
+.tgl-img-center {
+  display: flex;
+  
+}
+
+.tgl-img-place {
+  display: flex;
+  margin: 1rem;
+  max-width: 400px;
+}
+
+.tgl-img-center img {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  max-width: 400px;
+}
+
+
 
 .tgl .instagram-media {
   margin: auto !important;
@@ -733,7 +798,10 @@ green light #cfd877*/
   background-color: #122806;
 }
 
-
+.list-bloc {
+  display: inline-block;
+  width: 100%;
+}
 
 .attention-journey {
 
