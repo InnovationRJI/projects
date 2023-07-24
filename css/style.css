@@ -78,7 +78,7 @@ font-family: 'Open Sans', sans-serif;
   color: #f0f0f0;
   font-size: 0.9rem;
   line-height: 1.1rem;
-  padding: 0.1rem;
+/*  padding: 0.1rem;*/
   margin-bottom: 0.5rem;
 /*  padding-left: 1.5rem;*/
   background-color: #1c5e90;
@@ -100,7 +100,12 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .rji-bug img {
-  max-width: 20px;
+  max-width: 50px;
+  width: 50px;
+  float: right;
+/*  padding-left: 0.5rem;*/
+  align-items: center;
+  justify-content: center;
 }
 
 .rji-bug .rji-svg {
@@ -372,8 +377,7 @@ background: linear-gradient(#e66465, #9198e5);*/
 
 footer {
   display: flex;
-/*  position:relative;*/
-/*  display:block;*/
+  justify-content: center;
   width:100%;
   margin:0 auto;
   padding: 0 1rem 0 1rem ;
@@ -383,12 +387,26 @@ footer {
 
 
 footer img {
+  
+}
+
+.footer-element {
+`display: flex;
+width: 100%;
+
+}
+
+footer .footer-element img{
+  display: flex;
   justify-content: center;
   padding: 0.1rem;
-  float: left;
+/*  float: left;*/
+  width: 400px;
   max-width: 100%;
   max-height: 3rem;
 }
+
+
 
 .partner-footer {
   float: right;
