@@ -665,6 +665,8 @@ filter: drop-shadow(0 0 0.25rem white);
 .hire-img-center {
   display: flex;
   justify-content: center;
+  height: 200px;
+  aspect-ratio: auto;
 }
 
 .hire-img-center img {
