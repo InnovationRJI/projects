@@ -391,8 +391,12 @@ footer img {
 }
 
 .footer-element {
-`display: flex;
+display: flex;
 width: 100%;
+font-weight: 300;
+font-size: 1rem;
+border-top: #787878 dotted 1px;
+padding-top: 1rem;
 
 }
 
@@ -768,7 +772,7 @@ border-left: solid 1rem linear-gradient(#cae2f5, #ebf8da);
 
 .tgl hr {
   border-style: dotted;
-  
+
 }
 
 .tglt {
