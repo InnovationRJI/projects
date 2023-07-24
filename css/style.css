@@ -1067,22 +1067,24 @@ green light #cfd877*/
 }
 
 .link-button-group {
-  display: flex;
-  max-width: 100%;
+/*    display: flex;*/
+
+
+
 
 
 }
 
 
 .link-button-group .tile {
-  padding: 0.2rem !important;
-  justify-content: ;
+
 }
 
 .link-button-group .tile .post {
-  padding: 0.2rem !important;
-  text-align: center;
-  max-width: 100%;
+    flex-flow: column wrap;
+    align-items: stretch;
+  
+  
 
 }
 
@@ -1092,6 +1094,8 @@ green light #cfd877*/
     font-size: 1.1rem;
     line-height: 1.2rem;
     text-transform: uppercase;
+    text-align: center;
+/*    padding: 0.2rem !important;*/
 
 }
 
@@ -1130,7 +1134,7 @@ green light #cfd877*/
 
 
 @media screen and (max-width: 479px){
-  .gallery .tile{
+.gallery .tile{
     width:50%;
     float:left;
   }
