@@ -766,6 +766,11 @@ border-left: solid 1rem linear-gradient(#cae2f5, #ebf8da);
 
 }
 
+.tgl hr {
+  border-style: dotted;
+  
+}
+
 .tglt {
   background: linear-gradient(#cfd877, #fdd7d8) !important;
   color: #202020 !important;
