@@ -1124,7 +1124,8 @@ green light #cfd877*/
 }
 
 .link-button-group {
-/*    display: flex;*/
+    display: flex;
+    flex-wrap: wrap;
 
 
 
@@ -1133,13 +1134,16 @@ green light #cfd877*/
 }
 
 
-.link-button-group .tile {
+.link-button-group .link-button {
+    padding: 0 0.5rem 0.5rem 0;
+    flex-flow: column wrap;
+    align-items: stretch safe;
 
 }
 
 .link-button-group .tile .post {
     flex-flow: column wrap;
-    align-items: stretch;
+    align-items: stretch safe;
   
   
 
@@ -1379,7 +1383,13 @@ green light #cfd877*/
   content: "🎓 FELLOW";
 }
 
+.link-button-group .link-button {
+    padding: 0 0.5rem 0.5rem 0;
+    flex-flow: column wrap;
+    align-items: stretch safe;
+    width: 100%;
 
+}
 
 
 }
@@ -1409,6 +1419,13 @@ h1 {
   
 }
 
+.link-button-group .link-button {
+    padding: 0 0.5rem 0.5rem 0;
+    flex-flow: column wrap;
+    align-items: stretch safe;
+    width: 50%;
+
+}
 
 }
 
@@ -1422,7 +1439,13 @@ h1 {
   }
 
 
+.link-button-group .link-button {
+    padding: 0 0.5rem 0.5rem 0;
+    flex-flow: column wrap;
+    align-items: stretch safe;
+    width: 25%;
 
+}
 
 
 
@@ -1445,7 +1468,13 @@ h1 {
   }
 
 
+  .link-button-group .link-button {
+    padding: 0 0.5rem 0.5rem 0;
+    flex-flow: column wrap;
+    align-items: stretch safe;
+    width: 25%;
 
+}
 
 
 
