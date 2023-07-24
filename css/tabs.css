@@ -18,7 +18,8 @@
 .tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6),
 .tabset > input:nth-child(13):checked ~ .tab-panels > .tab-panel:nth-child(7),
 .tabset > input:nth-child(15):checked ~ .tab-panels > .tab-panel:nth-child(8),
-.tabset > input:nth-child(17):checked ~ .tab-panels > .tab-panel:nth-child(10) {
+.tabset > input:nth-child(17):checked ~ .tab-panels > .tab-panel:nth-child(10),
+.tabset > input:nth-child(19):checked ~ .tab-panels > .tab-panel:nth-child(11) {
   display: block;
 }
 
@@ -82,23 +83,41 @@ input:focus-visible + label {
   border-radius: 0.3rem;
 }
 
+/*baseline*/
 .cslim .tabset > input:checked + label {
   border-color: #ccc;
-  border-bottom: 1px solid #fff;
+/*  border-bottom: 1px solid #fff;*/
 /*  margin-bottom: -1px;*/
-  background-color: #d2eff2;
+  background-color: #288790;
   border-radius: 0.3rem;
-  color: #3d3d3d;
+  color: #fff;
   
 }
+
+
+.cslim .tabset > input:checked + label {
+  border-color: #ccc;
+/*  border-bottom: 1px solid #fff;*/
+/*  margin-bottom: -1px;*/
+  background-color: #288790;
+  border-radius: 0.3rem;
+  color: #fff;
+  
+}
+
+
+
 
 .cslim .tabset label{
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
 
+/*endbaseline*/
+
 
 .tab-panel {
+  display: flex;
   padding: 0.1rem 0;
   border-top: 1px solid #ccc;
 /*  background-image:   url("../img/tgl/the-path.jpg");*/

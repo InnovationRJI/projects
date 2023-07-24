@@ -5,8 +5,8 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="author" content="Reynolds Journalism Institute">
-
-    <meta property="og:image" content="img/rji/logo-keypad.svg">
+    <meta name="robots" content="noindex">
+    <meta property="og:image" content="../img/tgl/carrot-time2.png">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
     <meta property="og:title" content="Attention Journey ↹ Action Journey"> 
@@ -22,9 +22,9 @@
 
 
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sharing.css">
-    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sharing.css">
+    <link rel="stylesheet" href="../css/tabs.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,22 +34,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300&family=Libre+Franklin:wght@100;700&display=swap" rel="stylesheet">
 
-    <!-- <script type="text/javascript" src="js/sharing.js" defer></script> -->
-    <script type="text/javascript" src="js/accord.js" defer></script>
-    <script type="text/javascript" src="js/tab.js" defer></script>
+    <!-- <script type="text/javascript" src="../js/sharing.js" defer></script> -->
+    <script type="text/javascript" src="../js/accord.js" defer></script>
+    <script type="text/javascript" src="../js/tab.js" defer></script>
     
   </head>
 
 <main>
   <header>
-   <nav class="nav">
+   <!-- <nav class="nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Contact</a></li>
         <li></li> 
       </ul>
-    </nav>
+    </nav> -->
   </header>
 
 
@@ -57,42 +57,25 @@
 
 
       <div class="gallery">
-        <div class="tile full">
+        <div class="tile full tgl-intro">
           <div class="post">
             
-           
+           <span class="rji-bug">
+            <span class="rji-svg"></span>
+            <a href="../index.html">A partnership project of RJI and The Green Line</a></span>
             <h1>Attention ↹ Action <span class="small-title">Journey</span></h1>
            
             <h2>Creating community-driven journalism that encourages civic engagement</h2>
+
           </div>
         </div>
         <div class="tile full ">
           <div class="post tgl">
             <div class="tab-container ">
 
-<!-- <h1>Attention ⇒ Action</h1> -->
 
-<!-- <h1>Attention ↹ Action</h1> -->
 
-<!-- <h1>Attention ↔ Action</h1> -->
-
-              <!-- 
-  
-  Radio version of tabs.
-
-  Requirements:
-  - not rely on specific IDs for CSS (the CSS shouldn't need to know specific IDs)
-  - flexible for any number of unkown tabs [2-6]
-  - accessible
-
-  Caveats:
-  - since these are checkboxes the tabs not tab-able, need to use arrow keys
-
-  Also worth reading:
-  http://simplyaccessible.com/article/danger-aria-tabs/
--->
-
-    <div class="tabset tgl">
+    <div class="tabset tgl" id=tabcontrol>
       <!-- Tab 1 -->
       <input type="radio" name="tabset" id="tab1" aria-controls="explainer" checked>
       <label for="tab1">Start >></label>
@@ -120,19 +103,24 @@
       <!-- Tab 9 -->
       <input type="radio" name="tabset" id="tab10" aria-controls="event">
       <label for="tab10">Solutions</label>
+      <!-- Tab 10 -->
+      <input type="radio" name="tabset" id="tab11" aria-controls="event">
+      <label for="tab11">About</label>
 
   <div class="tab-panels">
     <section id="action-journey" class="tab-panel">
       <div class="lead-image">
-          <span class="bottom-left">
-          <h2>To bring the Attention ↹ Action Journey to your newsroom</h2>
+        <img class="tab-lead" src="../img/tgl/thepath4.png" alt="A rabbit explores a path towards a carrot patch">
+          <div class="bottom-left">
+            <h2>To bring the Attention ↹ Action Journey to your newsroom</h2>
               <p>This guide will walk journalists through The Green Line‘s original theory-of-change models, its Attention and Action Journey.</p>
               <p>Our end goal is to help your news publication increase loyalty and engagement among audience members, as well as motivate your audience to take action on issues that matter to their communities. </p>
-            </span>
-        <img class="tab-lead" src="img/tgl/thepath4.png">
+              <h3><a href="#tabcontrol">Explore the steps above ⤴</a></h3>
+          </div>
+        
 
 
-          <!-- </span> -->
+          
       </div>
     </section>
 
@@ -140,7 +128,7 @@
 
     <section id="tab1" class="tab-panel">
       <h2>Attention Journey: Comedy/Opinion/Behind-the-Scenes</h2>
-          <img src="img/tgl/grumpy.png" class="small-icon-rt">
+          <img src="../img/tgl/grumpy.png" class="small-icon-rt" alt="a grumpy rabbit looks at you">
 
 
           <p>At the top of our Attention Journey is comedy, opinion and behind-the-scenes content. This type of bite-sized content sits at the top of our funnel because they tend to be accessible and shareable — attributes that attract audience members who’d be less inclined to read something more involved or in-depth.  </p>
@@ -151,7 +139,7 @@
 
           <p></p>
 
-          <h3>Explore the steps below ↴ </h3>
+          <h3>Explore the steps below ↴</h3>
 
 
             <button class="accordion">How we build it</button>
@@ -197,7 +185,7 @@
 
     <section id="tab2" class="tab-panel">
       <h2>Attention Journey: Service and profile</h2>
-      <img class="small-icon" src="img/tgl/fde2.png">
+      <img class="small-icon" src="../img/tgl/fde2.png" alt="a rabbit is looking at you the viewer">
 
         
         <p>The second stage of our Attention Journey is service and profile journalism, which are more in-depth than comedy, opinion or behind-the-scenes content, but remain accessible to a broad audience. Under this category, The Green Line produces guides that help young and other underserved Torontonians survive and thrive in the city, including neighbourhood guides and topical guides (e.g. healthy masculinity, co-housing, etc.), as well as profiles of community business and leaders through our unique series such as “On the Come Up” or “The Checkout.” </p>
@@ -210,6 +198,8 @@
               At The Green Line, we have weekly company-wide meetings on Monday, where our entire team provides updates on their work to date, and where the assigning editor assigns new stories or tasks. Typically, there are one or two reporters on the team that focus on producing service journalism, so they either pitch angles for guides or profiles, or receive an assignment from the editor. </p>
 
               <p>The reporter then contacts the relevant source (there’s usually only one person we focus on for service and profile journalism pieces) to set up an interview. They prepare questions, and create an outline that provides a high-level overview of what will be on each of the 10 slides, which are created using Canva. After conducting the video interview either in person or over Zoom, the reporter puts together a first draft on Canva and files it to the assigning editor. After a round or two of edits, the editor sends the post to our social team, which writes up an accompanying caption and publishes it. </p> 
+
+              
 
               <p>This workflow isn’t meant to be a one-size-fits-all solution; instead, we recommend that you adapt it to suit your newsroom’s needs.
               </p>
@@ -245,7 +235,7 @@
 
     <section id="tab3" class="tab-panel">
       <h2>Attention Journey: Original Journalism</h2>
-      <img class="tab-lead" src="img/tgl/trees.png">
+      <img class="tab-lead" src="../img/tgl/trees.png" alt="a meadow with a grand tree standing apart from the trees along the edge">
 
         <p>
               The third stage of our Attention Journey is what The Green Line refers to as original journalism, which is more in-depth than both service and profile journalism (second stage), as well as comedy, opinion and behind-the-scenes content (first stage). All of our journalism is original, but we use this label to describe stories that have a uniquely Green Line perspective, which means we either focus on young and other underserved Torontonians, or we fill in a gap in coverage of a widely reported issue.</p> 
@@ -270,16 +260,18 @@
             Our reporters and community producers Aloysius Wong and Mahdis Habibinia produced this original story titled “Scarborough RT to shut down this fall, will be replaced with shuttle buses until 2030,” which looks at a longstanding light rail transit line in an underserved part of Toronto that’s closing down without a viable replacement; it attracted over 130 likes, 92 shares and 19 saves.
             </p>
 
-                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CqLEDOOORir/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CqLEDOOORir/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CqLEDOOORir/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by THE GREEN LINE (@thegreenlineto)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+                
 
               <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Cqk0esHOHuL/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Cqk0esHOHuL/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Cqk0esHOHuL/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by THE GREEN LINE (@thegreenlineto)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script> 
 
 
             <p>This story was widely reported in legacy Toronto news outlets, but The Green Line was the first to focus on potential solutions to replace the RT and to interview regular Scarberians, rather than just decision-makers. The same team of reporters also produced “How Oakwood Village residents took community action on homelessness in Reggae Lane;” while the traction for this was less significant with 30 likes, 16 shares and 4 saves, the story idea came from an Oakwood Village resident who attended one of our previous events and completed a community survey. </p>
 
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CqLEDOOORir/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CqLEDOOORir/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CqLEDOOORir/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by THE GREEN LINE (@thegreenlineto)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
             <p>If The Green Line built an Attention Journey based on the Scarborough RT story, we would’ve directed audience members to read a long-form feature about transit deserts in Toronto’s underserved neighbourhoods, for instance, which is one level deeper than the short-form Instagram article. </p>
             </div>
-
+           
             <button class="accordion">How you can experiment</button>
                         <div class="accordion-content">
                           <p>
@@ -293,7 +285,7 @@
 
     <section id="tab4" class="tab-panel">
       <h2>Attention Journey: Feature part one</h2>
-      <img class="tab-lead" src="img/tgl/pathing234.png">
+      <img class="tab-lead" src="../img/tgl/pathing234.png" alt="A rabbit sits on a path in a patch of sunlight next to a rock amid large trees">
 
         <p> The final stage of our Attention Journey is The Green Line’s feature journalism; originally, we exclusively published long-form, solutions-focused features, but have since expanded our definition of feature to include other formats, such as a series of shorter articles and interactive databases. The feature is the most in-depth of all the journalism in our Attention Journey, so audience members who arrive at this stage have been invested in learning about the particular focus topic for some time.
         </p>
@@ -302,10 +294,14 @@
         <h3>Explore the steps below ↴ </h3>
         <button class="accordion">How we built it</button>
             <div class="accordion-content">
+              <div class="tgl-img-left">
+                <img src="../img/tgl/covid.png" class="" alt="A screenshot of a greenline article">
+              </div>
               <p>The workflow process for The Green Line’s feature journalism differs significantly from that of the previous three stages. Typically, our editor-in-chief determines a systemic issue in Toronto that she’s decided is significant enough to cover (i.e. ending of COVID-19 mandates and navigating a new normal) or that community members have indicated through feedback they want coverage on (i.e. food insecurity in Riverside). She then puts out a call for freelance feature reporters who have a relevant pitch for a major feature, and then commissions the best idea. 
 
               </p>
               <p>Publication typically happens six months from that point; at the kickoff planning meeting, our editor-in-chief and the feature reporter determine the overall project timeline, including deliverables and deadlines. See, below, for an example of a typical feature timeline:</p>
+              <div class="list-bloc">
               <p>
                 <ul>
                   <li>Conduct interviews: June 2023
@@ -325,6 +321,7 @@
                   <li>Publication: Week of November 13, 2023</li>
                 </ul>
               </p>
+            </div>
               <p>
                 This workflow isn’t meant to be a one-size-fits-all solution; instead, we recommend that you adapt it to suit your newsroom’s needs.
 
@@ -335,6 +332,9 @@
         <button class="accordion">Examples and their impacts
           </button>
             <div class="accordion-content">
+              <div class="tgl-img-right">
+                <img src="../img/tgl/music.png" class="" alt="A screenshot of a The Green Line article">
+              </div>
               <p>Our freelance feature reporter Steven Zhou wrote this long-form feature titled "<a href="https://thegreenline.to/issue/living-with-covid-mandate-toronto/#part_two_feature">Living With COVID in Toronto: When You Feel Alone Even Though 'We're All in This Together</a>,'" which looked at how the city of Toronto navigated the 1918 Flu pandemic, and compared that to how the city navigated the current COVID-19 pandemic. He reported on historical solutions from 100 years ago that still provided insights relevant today, as well as on how our systems and institutions need to evolve to better support Torontonians’ health and well-being. Zhou’s feature attracted over 4,000 pageviews to date in addition to further engagement on social posts promoting his story, which is significant given that The Green Line was an unknown publication when it was published. 
               </p>
               <p>Similarly, our second-ever feature by freelance reporter Aparita Bhandari attracted close to 5,000 pageviews to date, and received considerable engagement since it was amplified on Reddit and by high-profile Torontonians on social media. Titled “<a href="https://thegreenline.to/issue/muchmusic-toronto-identity/#part_two_feature">More Than Just a Music Channel: How MuchMusic Ushered in Modern Toronto</a>," Bhandari explores the history of MuchMusic and how it created gathering spaces for music-makers and -lovers in the city and beyond. She also looks at how in doing so, MuchMusic shaped the physical geography of the city, as well as the way Torontonians accessed and experienced music.
@@ -357,8 +357,8 @@
 
     <section id="tab5" class="tab-panel">
       <h2>Action Journey: Explainer</h2>
-      <img class="tab-lead" src="img/tgl/council.png">
-      <!-- <img class="tab-lead" src="img/tgl/jumping.jpg"> -->
+      <img class="tab-lead" src="../img/tgl/council.png" alt="A group of rabbits sit listening to another rabbit tell them a tale of a carrot">
+      <!-- <img class="tab-lead" src="../img/tgl/jumping.jpg"> -->
       <p>At the top of our Action Journey are explainers, which break down a systemic problem facing Torontonians. They’re the entry point for readers to understand the fundamentals of a complex issue without providing too much detail, which could overwhelm. We publish explainers, which range from 500 to 700 words, both on our website and on Instagram in a carousel post format. Since they’re accessible and easy to consume, our goal is to motivate audience members who might not be inclined to learn more about the systemic problem to check out our more in-depth coverage on the same issue. But even those who decide not to move down the Action Journey will still be reasonably informed about the systemic problem because the explainer is a standalone piece of journalism.  </p>
       <h3>Explore the steps below ↴ </h3>
 
@@ -368,11 +368,13 @@
               <p>Because explainers are more research-based, they rarely include interviews with sources. So, the reporter then conducts research focusing in particular on collecting data from original sources (e.g. findings from independent think tanks, publicly available government data, peer-reviewed academic studies, etc.) rather than third-party sources like other news outlets.</p>
               <p>The reporter then creates an outline that provides a high-level overview of what will be on each of the 10 slides, which are created using Canva. After the assigning editor approves the outline, the reporter puts together a first draft on Canva and files it. After a round or two of edits, the editor sends the post to our social team, which writes up an accompanying caption and publishes it. </p>
               <p>This workflow isn’t meant to be a one-size-fits-all solution; instead, we recommend that you adapt it to suit your newsroom’s needs.</p>
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CiNNTURu2wg/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CiNNTURu2wg/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CiNNTURu2wg/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by THE GREEN LINE (@thegreenlineto)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
             </div>
             <button class="accordion">Examples and their impacts</button>
             <div class="accordion-content">
               <p>One of our former reporters and news innovation fellows produced <a href="https://www.instagram.com/p/CiNNTURu2wg/">this explainer</a>, which unpacks why weed is a labour issue, specifically looking at how Ontario’s cannabis industry grows on the backs of migrant agricultural workers and racialized vendors, including those in Toronto. The explainer — which generated 74 likes, 73 shares and 12 saves — is part of an Action Journey that explores labour rights for growers and sellers in the industry since marijuana was legalized in Canada five years ago.</p>
               <p>The same reporter and news innovation fellow produced <a href="https://www.instagram.com/p/CoYVlbwu1PQ/">this explainer, which breaks down the history of Black film in Toronto</a>, specifically looking at the systemic barriers facing Black creatives in the city’s entertainment industry. Attracting 69 likes, 15 shares and 17 saves, the explainer is part of an Action Journey that explores why Black cinema in Canada hasn’t had the same kind of institutional support it’s enjoyed in the U.S.</p>
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CoYVlbwu1PQ/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CoYVlbwu1PQ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CoYVlbwu1PQ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by THE GREEN LINE (@thegreenlineto)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
             </div>
 
           <button class="accordion">How you can experiment</button>
@@ -388,15 +390,18 @@
 
     <section id="tab6" class="tab-panel">
       <h2>Action Journey: Feature part two</h2>
-      <img class="tab-lead" src="img/tgl/carrot-time.png">
+      <img class="tab-lead" src="../img/tgl/carrot-time2.png" alt="Two rabbits jump at a patch of carrots growing the ground while a single carrot rests on its side next to the other carrots">
       <p>The second stage of our Action Journey is The Green Line’s feature journalism. As mentioned, above, we exclusively published long-form, solutions-focused features, but have since expanded our definition of feature to include other formats, such as a series of shorter articles and interactive databases. So, why does the feature sit at the second stage of our Action Journey? Readers first learn about the problem in the explainer, and as a result may be motivated to seek out solutions, so they’re then directed to learn about potential local solutions to the problem in the feature.
- </p>
- <p>We publish features on our website, and they often include original photography, accompanying data visualizations, pull quotes, multimedia content and more. 
-</p>
+      </p>
+       <p>We publish features on our website, and they often include original photography, accompanying data visualizations, pull quotes, multimedia content and more. 
+      </p>
       <h3>Explore the steps below ↴ </h3>
       
           <button class="accordion">How we built it</button>
             <div class="accordion-content">
+              <div class="tgl-img-right">
+                <img src="../img/tgl/feature2.png" class="" alt="A screenshot of a The Green Line feature story ">
+              </div>
               <p>As mentioned previously, our editor-in-chief determines a systemic issue in Toronto that she’s decided is significant enough to cover or that community members have indicated through feedback they want coverage on. She then puts out a call for freelance feature reporters who have a relevant pitch for a major feature, and then commissions the best idea.</p>
               <p>Publication typically happens six months from that point; at the kickoff planning meeting, our editor-in-chief and the feature reporter determine the overall project timeline, including deliverables and deadlines.</p>
               <p>This workflow isn’t meant to be a one-size-fits-all solution; instead, we recommend that you adapt it to suit your newsroom’s needs.</p>
@@ -405,6 +410,9 @@
 
           <button class="accordion">Examples and their impacts</button>
             <div class="accordion-content">
+              <div class="tgl-img-left">
+                <img src="../img/tgl/weed-feature.png" class="" alt="A screenshot of a The Green Line feature article">
+              </div>
               <p>Our freelance feature reporter Megan Kinch wrote this long-form feature titled <a href="https://thegreenline.to/issue/weed-work-labour-capital-cannabis-industry/#part_two_feature">“Sovereignty, labour and the Push for a Better Marijuana Industry,”</a> which explores how Toronto-based weed workers are navigating their industry's budding labour frameworks as they're being fleshed out in real time. It also looks at how vulnerable communities were excluded from labour opportunities in the weed industry, post-legalization. A collaborative effort between The Green Line, The Hoser and Rabble.ca, Kinch’s feature attracted over 1,100 pageviews alone on our website to date in addition to traffic generated via our partner sites, as well as considerable engagement with newsletters and social posts promoting their story.</p>
               <p>Our freelance feature reporter Huda Hassan wrote this long-form feature titled <a href="https://thegreenline.to/issue/toronto-black-film/#part_two_feature">“How Two Black Woman Filmmakers From Toronto Created a Community That Launched the Black-Canadian Film Canon,”</a> which dives deep into the history and legacy of Black cinema in Toronto to unearth a major narrative from the city’s film scene that’s been overlooked. It also explores why Black cinema in Canada hasn't had the same kind of institutional support that it's enjoyed in America. Hassan’s feature attracted over 1,000 pageviews to date, as well as considerable engagement with newsletters and social posts promoting her story.</p>
             </div>
@@ -419,60 +427,84 @@
 
     <section id="tab7" class="tab-panel">
       <h2>Action Journey: Event</h2>
-      <img class="tab-lead" src="img/tgl/event.png">
+      <img class="tab-lead" src="../img/tgl/event.png" alt="A group of rabbits are barely visible amid the tall grass, their ears poke up, taller than the grass while the rest of them is obscured">
         <p>The third stage of our Action Journey is The Green Line’s community event, which can either be in-person or virtual. Our events always include a version of a <a href="https://www.capradio.org/media/12240974/100118storycircleguide.pdf">Story Circle</a>, which brings together diverse residents in intimate settings to discuss important issues, hear one another, and envision the way forward. Pioneered by Capital Public Radio in Sacramento, Calif., Story Circles are facilitated discussions that last three hours. </p>
 
         <p>For The Green Line’s purposes so we can best honour audience needs, we’ve adapted the original format by, for example, creating virtual versions delivered via Zoom or shortening the event to 1.5 hours. The focus of the Story Circle conversations are possible solutions to the systemic problem outlined in the explainer (first stage) and feature (second stage). Our hope is that people who consume The Green Line’s top-of-the-funnel coverage will be motivated to attend our event to discuss the issue with their fellow community members in a fun, safe setting. </p>
         <p>Often, the event includes a panel discussion with sources from the feature and industry experts, which set the stage for later discussion among event attendees. In addition, The Green Line makes a point of incorporating joy-centered activities into our community events as a way to motivate people to attend (because our journalism frequently tackles serious systemic issues in the city, this is an effective way to capture people’s attention and engage them). </p>
       <p></p>
-      <p><img src="img/tgl/tgl-event.png"></p>
+      <p></p>
       <p></p>
       <p></p>
       <h3>Explore the steps below ↴ </h3>
           <button class="accordion">How we built it</button>
             <div class="accordion-content">
+              <div class="tgl-img-bigleft">
+                <img src="../img/tgl/panel.png" class="" alt="Portrait headshots of three people on a panel and their pronouns">
+              </div>
               <p>We start preparing for the event about two months in advance to organize logistics and other tasks. Here’s an example of a run of show from our Black Film in Toronto screening and community event, which included short breaks:
-</p>
+          </p>
+          <div class="list-bloc">
             <p>
-                            <ul>
-              <li>DOORS OPEN (6:30-7:20 / 50 MINS)</li>
-              <li>- WELCOME AND INTRODUCTIONS (7:20-7:30 / 10 MINS) </li>
-                <li>
-              <li>→ Land acknowledgement</li>
-              <li>→ Housekeeping info (e.g. washrooms)</li>
-              <li>→ Introduce team and host</li>
-              <li>→ Anita introduces The Green Line</li>
-              <li>→ Partner acknowledgement</li>
-              <li>→ Why we’re here today: Action Journey focus topic</li>
-              <li>→ Overview of event agenda</li>
-            </li>
-
-              <li>- EXPERT PANEL (7:30- 8 / 30 MINS)</li>
-            <li>  <li>→ Panel discussion</li>
-              <li>→ Q&A with audience</li>
-              </li>
-              <li>- PURPOSE AND PROCESS OF STORY CIRCLE (8-8:05 / 5 MINS) </li>
-              <li></li><li>→ Ground rules for mutual safety and respect </li>
-              <li>- STORY CIRCLE SHARING (8:05-8:45 / 40 MINS)</li>
-              <li>→ Small-group breakout discussions where each person gets to speak about the focus topic for the same amount of time</li>
-              </li><li>- COMMUNITY SURVEY: SOLUTIONS JOURNALING (8:45-9 / 15 MINS)</li>
-              <li>→ Attendees have 15 minutes of silence to fill in community survey </li>
-              <li>- FILM SCREENINGS (9-10 / 60 MINS)</li>
-              <li>- CLOSING (10-10:05 / 5 MINS)</li>
-              <li>→ Next steps </li>
-              <li>→ How to stay in touch with The Green Line</li>
-              <li>→ Thank yous</li>
+              <ul>
+                <li>DOORS OPEN (6:30-7:20 / 50 MINS)</li>
+                <li>WELCOME AND INTRODUCTIONS (7:20-7:30 / 10 MINS) 
+                
+                  <ul>
+                    <li> Land acknowledgement</li>
+                    <li> Housekeeping info (e.g. washrooms)</li>
+                    <li> Introduce team and host</li>
+                    <li> Anita introduces The Green Line</li>
+                    <li> Partner acknowledgement</li>
+                    <li> Why we’re here today: Action Journey focus topic</li>
+                    <li> Overview of event agenda</li>
+                  </ul>
+                
+                </li>
+                <li>EXPERT PANEL (7:30- 8 / 30 MINS)
+            <ul> 
+              <li> Panel discussion</li>
+              <li> Q&A with audience</li>
+            </ul></li>
+            <li>PURPOSE AND PROCESS OF STORY CIRCLE (8-8:05 / 5 MINS) 
+              <ul>
+                <li> Ground rules for mutual safety and respect </li>
               </ul>
-</p>
+            </li>
+            <li>STORY CIRCLE SHARING (8:05-8:45 / 40 MINS)
+              <ul>
+              <li>Small-group breakout discussions where each person gets to speak about the focus topic for the same amount of time</li>
+              </ul>
+              </li>
+              <li>COMMUNITY SURVEY: SOLUTIONS JOURNALING (8:45-9 / 15 MINS)
+              <ul>
+              <li>Attendees have 15 minutes of silence to fill in community survey </li>
+              </ul>
+              </li>
+
+              <li>FILM SCREENINGS (9-10 / 60 MINS)</li>
+              <li>CLOSING (10-10:05 / 5 MINS)
+                <ul>
+                  <li>Next steps </li>
+                  <li>How to stay in touch with The Green Line</li>
+                  <li>Thank yous</li>
+                </ul>
+              </li>
+              </ul>
+          </p>
+          </div>
             </div>
           
 
           <button class="accordion">Examples and their impacts</button>
             <div class="accordion-content">
+              <div class="tgl-img-right">
+                <img src="../img/tgl/black-film.png" class="" alt="A group of images of people at the Black Film in Toronto event">
+              </div>
               <p>The Green Line hosted our <a href="https://thegreenline.to/issue/toronto-black-film/#part_three_event">Black Film in Toronto community event and film screenings</a> in February 2023; it featured an expert panel of three Toronto-based filmmakers at different points in their career, followed by a short Story Circle discussion and screenings of three short movies by local Black filmmakers. Nearly 70 people registered and about 50 attended our free 3.5-hour event, which took place in OBJX Studio, a community-driven and youth-oriented arts hub located in Toronto’s inner suburbs.   </p>
               <p>Our first-ever community event in April 2022, <a href="https://thegreenline.to/issue/living-with-covid-mandate-toronto/#part_three_event">Learning to Breathe Again: How to Live With COVID and Compassion in Toronto</a>, was virtual since our city was then just emerging from lockdown mandates. It featured an expert panel of five experts, including medical professionals, frontline workers and community activists followed by a more in-depth Story Circle, which included both small-group discussions in breakout rooms and a full group conversation. Again, nearly 70 people registered and about 60 attended our free two-hour event, which took place over Zoom.</p>
               <p>Alongside our partners Green Majority Radio, CIUT 89.5FM and The Grind, The Green Line also hosted its first-ever ticketed event for our June 2023 Action Journey, called <a href="https://thegreenline.to/issue/2023-mayoral-election/#part_three_event">Tune In: For a Better Toronto</a>. A special concert event meant to motivate young Torontonians to vote in the then-upcoming mayoral by-election, it featured four musical acts, a drag king and community group activation booths. The Green Line team also had a table where attendees could fill in our community surveys via paper (analog), QR code (digital) or video for accessibility purposes. Around 250 people paid to attend our six-hour event, which took place at The Great Hall, a historic concert venue in downtown Toronto. 
-</p>
+            </p>
             </div>
           <button class="accordion">How you can experiment</button>
             <div class="accordion-content">
@@ -483,7 +515,7 @@
     </section>
     <section id="tab8" class="tab-panel">
       <h2>Action Journey: Event</h2>
-      <img class="tab-lead" src="img/tgl/event.png">
+      <img class="tab-lead" src="../img/tgl/event.png" alt="A group of rabbits are barely visible amid the tall grass, their ears poke up, taller than the grass while the rest of them is obscured">
       <p>FILLER EVENT</p>
 
       <h3>Explore the steps below ↴ </h3>
@@ -504,13 +536,16 @@
     </section>
     <section id="tab10" class="tab-panel">
       <h2>Action Journey: Solutions</h2>
-      <img class="small-icon" src="img/tgl/carrot-blue.png">
+      <img class="small-icon" src="../img/tgl/carrot-blue.png" alt="A solitary rabbit sits next to a carrot, looking at the viewer having accomplished its goal of getting the carrot">
       <p>The final stage of our Action Journey is The Green Line’s solutions article, which is a curation of community-driven solutions surfaced at our community event (third stage). Our goal at this stage is to motivate people who attended our event to take action on the systemic problem raised in the explainer (first stage) and feature (second stage); we make this easy for them by analyzing and compiling the community survey data, and surfacing the most popular or most compelling solutions suggested by the respondents.</p>
       <p>In the solutions article section, we include event photos, as well as a dropdown menu that features three community-driven solutions. Below that, we include three corresponding links to help community members take action on the identified solutions; these links are often suggested by event attendees, though sometimes The Green Line team researches and curates our own links.</p>
 
       <h3>Explore the steps below ↴ </h3>
           <button class="accordion">How we built it</button>
             <div class="accordion-content">
+              <div class="tgl-img-right">
+                <img src="../img/tgl/solutions4.png" class="">
+              </div>
               <p>The process for producing the solutions article starts before The Green Line’s community event (third stage) when using Google Forms, we create audience surveys that ask community members questions related to the systemic problem and accompanying solutions explored in the feature (second stage). Our team then disseminates the surveys, often in three different formats for accessibility purposes (i.e. digital, paper, video), at the event.</p>
               <p>Depending on the nature of the event, attendees either get 10 to 15 minutes of time to complete the survey in silence, which usually happens during a more in-depth Story Circle. Or, they complete it throughout the event, which usually happens when there’s no Story Circle or a briefer one.</p>
               <p>The assigning editor then asks a member of The Green Line editorial team to collect and analyze the survey data to surface the three most popular or most compelling solutions suggested by event attendees. The team member then researches and compiles resources that enable our community members to take action on those solutions (sometimes survey respondents provide links to resources, so we include those where appropriate). All this information then gets published on our website.</p>
@@ -519,6 +554,9 @@
 
           <button class="accordion">Examples and their impacts</button>
             <div class="accordion-content">
+              <div class="tgl-img-bigleft">
+                <img src="../img/tgl/solutions5.png" class="" alt="a screenshot of a The Green Line resource page on a feature that list ways folks can get involved">
+              </div>
               <p>Around 40 per cent of the more than 60 attendees at Breathe Again: How to Live With COVID and Compassion in Toronto completed our community survey, which crowdsourced solutions for how to navigate the coronavirus post-mandate. We compiled their solutions under the heading “<a href="https://thegreenline.to/issue/living-with-covid-mandate-toronto/#part_four_solutions">Recovering Together: Community Over Apathy</a>.” In addition to demographic questions, these are some of the community-focused questions we asked:</p>
               
               <ul>
@@ -564,6 +602,16 @@
             </div>
 
     </section>
+
+    <section id="tab11" class="tab-panel">
+      <h2>About the author</h2>
+      <p>Anita Li is a longtime journalist, news entrepreneur, media consultant and educator with two decades of experience as a multi-platform journalist at outlets across North America. Currently, she is the founder, CEO and editor-in-chief of <a href="https://thegreenline.to/">The Green Line</a>, a hyperlocal Toronto-based news outlet.</p>
+      <p> Anita is also a journalism instructor at Toronto Metropolitan University, the City University of New York and Centennial College. Her areas of expertise include community-driven journalism, audience engagement, journalism entrepreneurship, consumer revenue business models, newsroom diversity, media ethics and journalism innovation. Anita co-founded Canadian Journalists of Colour in 2018, and is also a member of the board of directors for the Online News Association and LION (Local Independent Online News) Publishers. To keep up with Anita, subscribe to <a href="https://theotherwave.substack.com/">The Other Wave</a>, her journalism innovation newsletter about challenging the status quo in Canadian media.</p>
+            <p>Have questions or want to contribute to the guide? <a href="mailto:hello@thegreenline.to">Email us</a>.</p>
+
+
+
+    </section>
   </div>
   
 </div>
@@ -582,7 +630,7 @@
 
 </main>
 <footer>
-  <span><a href="https://rjionline.org/"><img src="img/rji/rji-footer.svg" alt="2023 Donald W. Reynolds Journalism Institute | University of Missouri" loading="">
+  <span><a href="https://rjionline.org/"><img src="../img/rji/rji-footer.svg" alt="2023 Donald W. Reynolds Journalism Institute | University of Missouri" loading="">  2023 Donald W. Reynolds Journalism Institute | University of Missouri
    
 </a>
  </span>
