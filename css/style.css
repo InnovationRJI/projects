@@ -1068,7 +1068,7 @@ green light #cfd877*/
 
 .link-button-group {
   display: flex;
-  width: 100%;
+  max-width: 100%;
 
 
 }
@@ -1082,6 +1082,7 @@ green light #cfd877*/
 .link-button-group .tile .post {
   padding: 0.2rem !important;
   text-align: center;
+  max-width: 100%;
 
 }
 
@@ -1143,6 +1144,11 @@ green light #cfd877*/
     font-size: 1rem;*/
   }
 
+
+
+
+
+
 .gallery {
 
 }
@@ -1202,6 +1208,118 @@ green light #cfd877*/
 
 
 }
+
+
+
+.toolkit-label::before {
+  text-transform: uppercase;
+  background-color: #765398;
+  color:  #e0ffff;
+  padding: 0.2rem;
+  margin: -0.5rem -0.5rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "🗃️ Toolkit ";
+}
+
+.tool-label::before {
+  text-transform: uppercase;
+  background-color: #cc6600;
+  color: #e0ffff;
+  padding: 0.2rem;
+  margin: -0.5rem -0.5rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "🛠️ TOOL";
+}
+.platform-label::before {
+  text-transform: uppercase;
+  background-color: #cc6600;
+  color: #e0ffff;
+  padding: 0.2rem;
+  margin: -0.5rem -0.5rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "🛠️ Platform";
+}
+
+.article-label::before {
+  background-image: url( '/img/rji/IIF.svg');
+/*  height: 10px;*/
+/*  width: 30px;*/
+  text-transform: uppercase;
+  background-color: #37809B;
+  color: #fff;
+  padding: 0.2rem;
+  margin: -0.5rem -0.5rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "⚙️ IIF";
+
+}
+
+/*Make this float below and to the right */
+.article2-label::before {
+  
+  text-transform: uppercase;
+  background-color: #37809B;
+  color: #fff;
+  padding: 0.2rem;
+  margin: -0.5rem -0.5rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "⚙️ IIF July 2023";
+
+
+}
+
+/*Make this float below and to the right */
+.article3-label::before {
+
+  text-transform: uppercase;
+  background-color: #37809B;
+  color: #fff;
+  padding: 0.2rem;
+  margin: -0.5rem -0.5rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "⚙️ IIF August 2023";
+  
+
+}
+
+.playbook-label::before{
+  text-transform: uppercase;
+  background-color: #765398;
+  color: #fff;
+  padding: 0.2rem;
+  margin: -0.5rem -0.5rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "📘 PLAYBOOK";
+}
+
+.fellow-label::before {
+  text-transform: uppercase;
+  background-color: #4E885A;
+  color: #fff;
+  padding: 0.2rem;
+  margin: -0.5rem -0.5rem;
+  float: right;
+  border-radius: 0.1rem;
+  border: dotted thin #fff;
+  content: "🎓 FELLOW";
+}
+
+
+
 
 }
 
