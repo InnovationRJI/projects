@@ -108,6 +108,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .rji-svg {
+    max-width: 10px;
     background-image: url("../img/rji/rji-logo.svg") ;
     background-repeat: no-repeat;
 }
