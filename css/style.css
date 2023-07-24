@@ -78,10 +78,14 @@ font-family: 'Open Sans', sans-serif;
   color: #f0f0f0;
   font-size: 0.9rem;
   line-height: 1.1rem;
-  padding: 0.5rem;
+  padding: 0.1rem;
   margin-bottom: 0.5rem;
+/*  padding-left: 1.5rem;*/
   background-color: #1c5e90;
   border-radius: 0.2rem;
+/*  background-image: url("../img/rji/rji-logo.svg") ;
+  background-repeat: no-repeat;*/
+
 }
 
 
@@ -98,6 +102,27 @@ font-family: 'Open Sans', sans-serif;
 .rji-bug img {
   max-width: 20px;
 }
+
+.rji-bug .rji-svg {
+
+}
+
+.rji-svg {
+    background-image: url("../img/rji/rji-logo.svg") ;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .hiring-list {
