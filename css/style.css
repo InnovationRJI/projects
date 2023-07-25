@@ -1108,7 +1108,7 @@ green light #cfd877*/
 }
 
 .iif-tile h2 {
-  font-size: medium;
+  font-size: x-large;
   font-weight: 400;
   line-height: 1.4rem;
 
@@ -1310,7 +1310,7 @@ green light #cfd877*/
   content: "🛠️ Platform";
 }
 
-.article-label::before {
+.iif-label::before {
   background-image: url( '/img/rji/IIF.svg');
 /*  height: 10px;*/
 /*  width: 30px;*/
