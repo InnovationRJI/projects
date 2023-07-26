@@ -357,6 +357,7 @@ background: linear-gradient(#e66465, #9198e5);*/
 
 .rji-home h2{
   color: #f0f0f0;
+  display: block;
 }
 
 /*sharing button*/
@@ -1125,7 +1126,8 @@ green light #cfd877*/
 .link-button-group {
     display: flex;
     flex-wrap: wrap;
-
+/*    text-align: center;*/
+/*    justify-content: center;*/
 
 
 
