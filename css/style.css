@@ -519,7 +519,11 @@ body .hiring-intro a:visited {
 /*      border-left: 2rem solid red;*/
 }
 
+.cslim h3 {
+  text-align: right;
+  margin-right: 2rem;
 
+}
 
 .cslim .interns ul li {
     font-family: 'Open Sans', sans-serif !important;
