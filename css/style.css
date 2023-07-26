@@ -217,6 +217,7 @@ header {
 h1 {
   font-family: 'Roboto Slab', serif;
   font-size: xx-large;
+  line-height: 2rem;
 }
 
 h2 {
