@@ -1,10 +1,34 @@
 /*styles for Reimagining Black Journalism in the Digital Age*/
+/*#000000 white
+#f2f2f2	light gray
+#ffffff black
+#ff1616 crimson
+#333333 mid gray
+
+
+*/
+/*
+Gza Seminegra
+Neue Machina light*/
+
+.kcd-main {
+    
+}
+
+
+.kcd-main p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 200;
+}
 
 .kcd {
 	background-color: ;
-	
-
-
+	font-family: 'Crimson Pro', serif;
+	background: linear-gradient(#f2f2f2, #ffffff);
+ 	color: #202020;
+ 	
+    font-size: 1.125rem;
+    line-height: 1.3rem;
 
 }
 
@@ -12,4 +36,105 @@
 
 .kcd-intro {
 
+}
+
+.kcd-main .pullquote {
+
+}
+
+
+.kcd hr {
+  border-style: dotted;
+  color: #ff1616;
+}
+
+
+
+
+.kcd-main h1 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 3rem;
+  vertical-align: top;
+  margin-top: 1rem;
+}
+
+
+.kcd-main h2 {
+	font-family: 'Crimson Pro', serif;
+  	font-size: x-large;
+}
+
+.kcd-main h3 {
+  color: #ff1616;
+/*  text-decoration: underline 3px #ff1616;*/
+
+}
+
+
+
+.kcd-main h3 a {
+  color: #ff1616;
+}
+
+.kcd-main h3 a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(111.3deg, #000 9.6%, #ff1616 93.6%);
+}
+
+
+.kcd .tabset > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+  background-color: #ff1616;
+  border-radius: 0.3rem;
+  color: #f2f2f2;
+  font-size: 1.4rem;
+}
+
+.kcd .tabset > label:hover,
+.tabset > input:focus + label,
+.tabset > input:checked + label {
+  color: #ff1616;
+/*  font-weight: 400;*/
+}
+
+start {
+
+}
+
+/*accordion section*/
+
+button.accordion:after {
+  font-family: ;
+  content: "▼";
+  font-family: "";
+  font-size: 1.2rem;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: "▲";
+
+}
+
+button.accordion:hover,
+button.accordion.is-open {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
 }
