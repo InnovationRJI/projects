@@ -109,32 +109,22 @@ start {
 
 }
 
+
+.kcd-gradient {
+  background: linear-gradient(111.3deg, #eeeeee 9.6%, #fff 93.6%, 20deg, #ff1616);
+/*  background: linear-gradient(blue, 10%, pink);*/
+}
+
+
+
+
 /*accordion section*/
 
-button.accordion:after {
-  font-family: ;
-  content: "▼";
-  font-family: "";
-  font-size: 1.2rem;
-  float: right;
-}
 
-button.accordion.is-open:after {
-  content: "▲";
 
-}
 
-button.accordion:hover,
-button.accordion.is-open {
-  background-color: #ddd;
-}
 
-.accordion-content {
-  background-color: white;
-  border-left: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
-  padding: 0 20px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-in-out;
-}
+
+
+
+
