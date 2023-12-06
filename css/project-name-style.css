@@ -3,7 +3,9 @@
 /*This file should be duplicated 
 and instances of project-name 
 should be replaced by the 
-name of the project e.g. kcd or tgl*/
+name of the project e.g. kcd or tgl
+
+*/
 
 
 .project-name {
@@ -16,7 +18,7 @@ name of the project e.g. kcd or tgl*/
 } 
 
 .project-name img {
-	
+
 }
 
 .project-name p {
@@ -44,6 +46,11 @@ name of the project e.g. kcd or tgl*/
 .project-name h3 {
 
 }
+
+.project-name  .pullquote {
+
+}
+
 
 
 .project-name .tabset > input:checked + label {

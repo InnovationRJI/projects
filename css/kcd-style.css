@@ -21,6 +21,12 @@ Neue Machina light*/
   font-weight: 200;
 }
 
+.kcd-main .blockquote {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+}
+
+
 .kcd {
 	background-color: ;
 	font-family: 'Crimson Pro', serif;
