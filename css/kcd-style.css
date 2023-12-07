@@ -22,9 +22,20 @@ Neue Machina light*/
 }
 
 .kcd-main .blockquote {
+  background: #ececec;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1rem;
+  font-weight: 100;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  
 }
+
+.kcd-main .blockquote {
+  background-color: #fff;
+}
+
+
 
 
 .kcd {
@@ -50,12 +61,18 @@ Neue Machina light*/
 
 
 .kcd hr {
-  border-style: dotted;
+/*  border-style: dotted;*/
   color: #ff1616;
+  background: linear-gradient(111.3deg, #000 9.6%, #ff1616 93.6%);
 }
 
 
-
+.kcd-main .kcdh3 {
+  color: #b30000;
+  float: left;
+  font-size: 1.7rem;
+  padding-left: 2rem;
+}
 
 .kcd-main h1 {
   font-family: 'Crimson Pro', serif;
