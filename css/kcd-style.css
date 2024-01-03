@@ -159,7 +159,8 @@ start {
   border-radius: 0.3rem;
   padding-left: 0.1rem;
   padding: 0.1rem;
-  background: linear-gradient(111.3deg, #000 9.6%, #ff1616 93.6%);
+  background: linear-gradient(111.3deg, #ff1616 9.6%, #000 93.6%);
+  box-shadow: 5px 5px 5px dimgray;
 }
 
 .doc-copy a {
