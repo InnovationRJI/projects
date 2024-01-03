@@ -11,6 +11,18 @@
 Gza Seminegra
 Neue Machina light*/
 
+<style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+</style>
+
+
+
 .kcd-main {
     
 }
@@ -142,18 +154,88 @@ start {
 
 }
 
+.doc-copy {
+  margin: 0.2rem;
+  border-radius: 0.3rem;
+  padding-left: 0.1rem;
+  padding: 0.1rem;
+  background: linear-gradient(111.3deg, #000 9.6%, #ff1616 93.6%);
+}
+
+.doc-copy a {
+  color: #fff;
+}
+
+.doc-copy a:link {
+  color: #fff !important;
+}
+.doc-copy a:visited {
+  color: #fff !important;
+}
 
 .kcd-gradient {
   background: linear-gradient(111.3deg, #eeeeee 9.6%, #fff 93.6%, 20deg, #ff1616);
 /*  background: linear-gradient(blue, 10%, pink);*/
 }
 
+.two-col {
+/*  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;*/
+}
+
+.task-list-left {
+  max-width: 50%;
+  padding-right: 1rem;
+}
+
+.task-list-left .kcdh3 {
+  max-width: 95%;
+
+}
+
+.task-list-right {
+  
+  max-width: 50%;
+  border-radius: 0.5rem;
+  border: ;
+  border-style: double;
+  margin: 1rem;
+  margin-right: -2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  float: right;
+  background: white;
+}
 
 
+.task-list-right ol {
+  
+}
+
+.task-list-right ol li {
+font-family: 'IBM Plex Mono', monospace;
+/*  font-size: 1.2rem;*/
+  font-weight: 80;
+  line-height: 1.4rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  border-top: solid gray 1px ;
+}
 
 /*accordion section*/
 
+@media screen and (max-width: 479px){
+  .task-list-right { 
+    max-width:90% !important; 
+  }
+}
+@media screen and (min-width:480px){
+/*  .task-list-right { max-width:80% }*/
 
+}
+@media screen and (min-width:720px){}
+@media screen and (min-width:960px){}
 
 
 
