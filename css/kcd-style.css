@@ -252,22 +252,28 @@ font-family: 'IBM Plex Mono', monospace;
   border-top: solid gray 1px ;
 }
 .small-image-type {
+  display: flex;
+  flex-direction: column;
   max-width: 50%px;
 /*  max-height: 350px;*/
   float: left;
   margin-right: 1rem;
   padding:0.1rem;
-
+  box-shadow: 2px 2px 5px dimgray;
 }
 
 .small-image-type img{
+
   max-width: 100%;
   padding:1rem;
+  
 }
 
-.small-image-type caption {
-  max-width: 100%;
-  margin: 0.1rem;
+.small-image-type .caption {
+    
+/*  max-width: 100%;*/
+/*  margin: 1rem;*/
+  padding: 0.1rem 1rem 1rem;
 }
 
 
