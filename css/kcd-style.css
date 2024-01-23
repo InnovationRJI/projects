@@ -1,0 +1,299 @@
+/*styles for Reimagining Black Journalism in the Digital Age*/
+/*#000000 white
+#f2f2f2	light gray
+#ffffff black
+#ff1616 crimson
+#333333 mid gray
+
+
+*/
+/*
+Gza Seminegra
+Neue Machina light*/
+
+<style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+</style>
+
+
+
+.kcd-main {
+    
+}
+
+
+.kcd-main p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 200;
+}
+
+.kcd-main .blockquote {
+  background: #ececec;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 1rem;
+  border-radius: 0.1rem;
+  -moz-box-shadow: 0 0 3px #797979;
+  -webkit-box-shadow: 0 0 3px #797979;
+  box-shadow: 0 0 3px #797979;
+
+}
+
+.kcd-main .blockquote {
+  background-color: #fff;
+}
+
+
+
+
+.kcd {
+	background-color: ;
+	font-family: 'Crimson Pro', serif;
+	background: linear-gradient(#f2f2f2, #ffffff);
+ 	color: #202020;
+ 	font-size: 1.125rem;
+  line-height: 1.3rem;
+  padding:0.1rem;
+}
+
+
+
+.kcd-intro {
+
+}
+
+.kcd-main .pullquote {
+
+}
+
+
+.kcd hr {
+/*  border-style: dotted;*/
+  color: #ff1616;
+  background: linear-gradient(111.3deg, #000 9.6%, #ff1616 93.6%);
+}
+
+
+.kcd-main .kcdh3 {
+  display: flex;
+  color: #fff;
+  float: left;
+  font-size: 1.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+  width: 100%;
+  background: linear-gradient(111.3deg, #000 9.6%, #ff1616 93.6%);
+
+}
+
+.kcd-main h1 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 3rem;
+  vertical-align: top;
+  margin-top: 1rem;
+  line-height: 3.1rem;
+}
+
+
+.kcd-main h2 {
+	font-family: 'Crimson Pro', serif;
+  	font-size: x-large;
+}
+
+.kcd-main h3 {
+  color: #ff1616;
+/*  text-decoration: underline 3px #ff1616;*/
+
+}
+
+
+
+.kcd-main h3 a {
+  color: #ff1616;
+}
+
+.kcd-main h3 a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(111.3deg, #000 9.6%, #ff1616 93.6%);
+}
+
+
+.kcd .tabset > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+  background-color: #ff1616;
+  border-radius: 0.3rem;
+  color: #f2f2f2;
+  font-size: 1.4rem;
+}
+
+.kcd .tabset > label:hover,
+.tabset > input:focus + label,
+.tabset > input:checked + label {
+  color: #ff1616;
+/*  font-weight: 400;*/
+}
+
+start {
+
+}
+
+.doc-copy {
+  margin: 0.2rem;
+  border-radius: 0.3rem;
+  padding-left: 0.1rem;
+  padding: 0.1rem;
+  background: linear-gradient(111.3deg, #ff1616 9.6%, #000 93.6%);
+  box-shadow: 5px 5px 5px dimgray;
+}
+
+.doc-copy a {
+  color: #fff;
+}
+
+.doc-copy a:link {
+  color: #fff !important;
+}
+.doc-copy a:visited {
+  color: #fff !important;
+}
+
+.kcd-gradient {
+  background: linear-gradient(111.3deg, #eeeeee 9.6%, #fff 93.6%, 20deg, #ff1616);
+/*  background: linear-gradient(blue, 10%, pink);*/
+}
+
+.two-col {
+/*  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;*/
+}
+
+.task-list-left {
+  max-width: 50%;
+  padding-right: 1rem;
+}
+
+.task-list-left .kcdh3 {
+  max-width: 97%;
+
+}
+
+.task-list-right {
+  
+  max-width: 50%;
+  border-radius: 0.5rem;
+  border: ;
+  border-style: double;
+  margin: 1rem;
+  margin-right: -2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  float: right;
+  background: white;
+}
+
+.task-list-center {
+  
+  max-width: 90%;
+  border-radius: 0.5rem;
+  border: ;
+  border-style: double;
+  margin: 1rem;
+  margin-right: -2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  float: right;
+  background: white;
+}
+
+
+.task-list-right ol {
+  
+}
+
+.task-list-center ol {
+  
+}
+
+.task-list-right ol li {
+font-family: 'IBM Plex Mono', monospace;
+/*  font-size: 1.2rem;*/
+  font-weight: 80;
+  line-height: 1.4rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  border-top: solid gray 1px ;
+}
+
+.task-list-center ol li {
+font-family: 'IBM Plex Mono', monospace;
+/*  font-size: 1.2rem;*/
+  font-weight: 80;
+  line-height: 1.4rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  border-top: solid gray 1px ;
+}
+.small-image-type {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%px;
+/*  max-height: 350px;*/
+  float: left;
+  margin-right: 1rem;
+  padding:0.1rem;
+  box-shadow: 2px 2px 5px dimgray;
+}
+
+.small-image-type img{
+
+  max-width: 100%;
+  padding:1rem;
+  
+}
+
+.small-image-type .caption {
+    
+/*  max-width: 100%;*/
+/*  margin: 1rem;*/
+  padding: 0.1rem 1rem 1rem;
+}
+
+
+/*accordion section*/
+
+@media screen and (max-width: 479px){
+  .task-list-right { 
+    max-width:90% !important; 
+  }
+}
+@media screen and (min-width:480px){
+/*  .task-list-right { max-width:80% }*/
+
+}
+@media screen and (min-width:720px){}
+@media screen and (min-width:960px){}
+
+
+
+
+
+
+

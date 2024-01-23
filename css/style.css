@@ -379,8 +379,8 @@ background: linear-gradient(#e66465, #9198e5);*/
 
 footer {
   display: flex;
-  justify-content: center;
-  width:100%;
+
+/*  width:100%;*/
   margin:0 auto;
   padding: 0 1rem 0 1rem ;
   overflow:hidden;
@@ -391,24 +391,25 @@ footer {
 
 
 .footer-element {
-display: flex;
-width: 100%;
-font-weight: 300;
-font-size: 1rem;
-border-top: #787878 dotted 1px;
-padding-top: 1rem;
-margin-right: 1rem;
+  display: flex;
+  justify-content: left;
+/*  flex-direction: column;*/
+  width: 100%;
+  font-weight: 300;
+  font-size: 1rem;
+  border-top: #787878 dotted 1px;
+  padding-top: 1rem;
+  margin:0 auto;
 
 }
 
-footer .footer-element img{
-  display: flex;
-  justify-content: center;
+footer img{
+  
   padding: 0.1rem;
-  width: 400px;
+  width: 500px;
   max-width: 100%;
   max-height: 3rem;
-  
+  min-width: 400px;
 }
 
 
@@ -940,8 +941,12 @@ green light #cfd877*/
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
-  border: dotted thin #fff;
+/*  border: dotted thin #fff;*/
   content: "🗃️ Toolkit ";
+  box-shadow: 0 2px 5px 0 
+      rgba(0,0,0,0.15), 0px 2px 2px 0 
+      rgba(0,0,0,0.14), 0px 3px 1px -2px 
+      rgba(0,0,0,0.08);
 }
 
 .tool-label::before {
@@ -952,8 +957,12 @@ green light #cfd877*/
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
-  border: dotted thin #fff;
+/*  border: dotted thin #fff;*/
   content: "🛠️ TOOL";
+  box-shadow: 0 2px 5px 0 
+      rgba(0,0,0,0.15), 0px 2px 2px 0 
+      rgba(0,0,0,0.14), 0px 3px 1px -2px 
+      rgba(0,0,0,0.08);
 }
 .platform-label::before {
   text-transform: uppercase;
@@ -963,8 +972,12 @@ green light #cfd877*/
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
-  border: dotted thin #fff;
+/*  border: dotted thin #fff;*/
   content: "🛠️ Platform";
+  box-shadow: 0 2px 5px 0 
+      rgba(0,0,0,0.15), 0px 2px 2px 0 
+      rgba(0,0,0,0.14), 0px 3px 1px -2px 
+      rgba(0,0,0,0.08);
 }
 
 .article-label::before {
@@ -978,8 +991,12 @@ green light #cfd877*/
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
-  border: dotted thin #fff;
+/*  border: dotted thin #fff;*/
   content: "⚙️ IIF";
+  box-shadow: 0 2px 5px 0 
+      rgba(0,0,0,0.15), 0px 2px 2px 0 
+      rgba(0,0,0,0.14), 0px 3px 1px -2px 
+      rgba(0,0,0,0.08);
 
 }
 
@@ -993,8 +1010,12 @@ green light #cfd877*/
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
-  border: dotted thin #fff;
+/*  border: dotted thin #fff;*/
   content: "⚙️ IIF July 2023";
+  box-shadow: 0 2px 5px 0 
+      rgba(0,0,0,0.15), 0px 2px 2px 0 
+      rgba(0,0,0,0.14), 0px 3px 1px -2px 
+      rgba(0,0,0,0.08);
 
 
 }
@@ -1009,9 +1030,12 @@ green light #cfd877*/
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
-  border: dotted thin #fff;
+/*  border: dotted thin #fff;*/
   content: "⚙️ IIF August 2023";
-  
+  box-shadow: 0 2px 5px 0 
+      rgba(0,0,0,0.15), 0px 2px 2px 0 
+      rgba(0,0,0,0.14), 0px 3px 1px -2px 
+      rgba(0,0,0,0.08);
 
 }
 
@@ -1023,8 +1047,12 @@ green light #cfd877*/
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
-  border: dotted thin #fff;
+/*  border: dotted thin #fff;*/
   content: "📘 PLAYBOOK";
+  box-shadow: 0 2px 5px 0 
+      rgba(0,0,0,0.15), 0px 2px 2px 0 
+      rgba(0,0,0,0.14), 0px 3px 1px -2px 
+      rgba(0,0,0,0.08);
 }
 
 .fellow-label::before {
@@ -1035,8 +1063,12 @@ green light #cfd877*/
   margin: -1rem -2rem;
   float: right;
   border-radius: 0.1rem;
-  border: dotted thin #fff;
+/*  border: dotted thin #fff;*/
   content: "🎓 FELLOW";
+      box-shadow: 0 2px 5px 0 
+      rgba(0,0,0,0.15), 0px 2px 2px 0 
+      rgba(0,0,0,0.14), 0px 3px 1px -2px 
+      rgba(0,0,0,0.08);
 }
 
 .tile-logo {
@@ -1058,6 +1090,11 @@ green light #cfd877*/
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.tile-logo-r img {
+  
+}
+
 
 .rji-tile {
 
@@ -1397,6 +1434,51 @@ green light #cfd877*/
 
 }
 
+footer {
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  width:100%;*/
+/*  margin:0 auto;*/
+/*  padding: 0 1rem 0 1rem ;
+  overflow:hidden;
+  max-width:960px;*/
+}
+
+
+
+
+
+
+
+.footer-element {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 300;
+  font-size: 1rem;
+  border-top: #787878 dotted 1px;
+  padding-top: 1rem;
+  margin:0 auto;
+
+}
+
+footer img{
+  
+
+}
+
+
+.footer-element img {
+  padding: 0.1rem;
+  width: 300px;
+  max-width: 100%;
+  max-height: 3rem;
+  min-width: 100px;
+  margin-bottom: 1rem;
+}
+
+
 
 }
 
@@ -1436,6 +1518,9 @@ h1 {
 
 }
 
+
+
+
 }
 
 @media screen and (min-width:720px){
@@ -1455,6 +1540,7 @@ h1 {
     width: 25%;
 
 }
+
 
 
 
