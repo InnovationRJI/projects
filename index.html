@@ -1,1 +1,35 @@
-<iframe src="https://innovationrji.softr.app" style="width: 100%; height: 100vh; border: none; overflow: auto;" scrolling="yes"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Softr App on GitHub Pages</title>
+    <style>
+        /* Force the body to take up the full screen height and remove margins */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevents a double scrollbar issue */
+        }
+        /* Style the iframe to fill the viewport seamlessly */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Softr App Iframe Container -->
+    <iframe id="softr-app-embed" src="https://innovationrji.softr.app" scrolling="yes"></iframe>
+
+    <!-- Script to automatically adjust iframe sizing constraints dynamically -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.11/iframeResizer.min.js"></script>
+    <script>
+        iFrameResize({ checkOrigin: false, log: false }, '#softr-app-embed');
+    </script>
+
+</body>
+</html>
